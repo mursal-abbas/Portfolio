@@ -7,7 +7,7 @@ This portfolio showcases my projects, coding journey, and skills as a front-end 
 
 ## 🚀 Live Preview
 
-🔗 **Visit Here:** [https://mursal-abbas.github.io/Personal-Portfolio/](https://mursal-abbas.github.io/Personal-Portfolio/)
+🔗 **Visit Here:** [https://mursal-abbas.github.io/Portfolio/](https://mursal-abbas.github.io/Portfolio/)
 
 ---
 
