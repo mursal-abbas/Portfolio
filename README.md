@@ -1,16 +1,89 @@
-# React + Vite
+# Mursal Abbas Portfolio
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+!\[Portfolio Banner](https://img.shields.io/badge/Portfolio-Mursal%20Abbas-blue)
+!\[React](https://img.shields.io/badge/React-Frontend-61DAFB)
+!\[GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-success)
 
-Currently, two official plugins are available:
+## 🚀 About
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+This is my personal portfolio website where I showcase my skills, projects, achievements, and journey as a developer.
 
-## React Compiler
+I am **Mursal Abbas**, a student and front-end developer from Pakistan who enjoys building modern, responsive, and user-friendly web applications using React and JavaScript.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌐 Live Website
 
-## Expanding the ESLint configuration
+Visit the portfolio:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+**https://mursal-abbas.github.io/Portfolio/**
+
+## ✨ Features
+
+* Modern and responsive design
+* Smooth user experience
+* Project showcase section
+* Skills and technologies section
+* Contact information
+* Mobile-friendly layout
+* Fast loading performance
+
+## 🛠️ Technologies Used
+
+* HTML5
+* CSS3
+* JavaScript (ES6+)
+* React.js
+* Git \& GitHub
+* GitHub Pages
+
+## 📂 Installation
+
+Clone the repository:
+
+```bash
+git clone https://github.com/mursal-abbas/Portfolio.git
+```
+
+Move into the project directory:
+
+```bash
+cd Portfolio
+```
+
+Install dependencies:
+
+```bash
+npm install
+```
+
+Run locally:
+
+```bash
+npm run dev
+```
+
+## 📸 Portfolio Sections
+
+* Home
+* About Me
+* Skills
+* Projects
+* Experience
+* Contact
+
+## 📈 Goals
+
+This portfolio represents my growth as a developer and will continue to evolve as I learn new technologies, build projects, and gain experience.
+
+## 🤝 Connect With Me
+
+* GitHub: https://github.com/mursal-abbas
+* Portfolio: https://mursal-abbas.github.io/Portfolio/
+
+## ⭐ Support
+
+If you like this project, consider giving the repository a star.
+
+\---
+
+Made with ❤️ by Mursal Abbas
+
