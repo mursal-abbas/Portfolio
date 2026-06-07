@@ -1,0 +1,2 @@
+# Create empty .nojekyll in public folder
+echo "" > public/.nojekyll
