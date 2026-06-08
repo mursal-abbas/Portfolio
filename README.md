@@ -1,8 +1,16 @@
 # Mursal Abbas Portfolio
 
-!\[Portfolio Banner](https://img.shields.io/badge/Portfolio-Mursal%20Abbas-blue)
-!\[React](https://img.shields.io/badge/React-Frontend-61DAFB)
-!\[GitHub Pages](https://img.shields.io/badge/Deployed-GitHub%20Pages-success)
+<p align="center">
+  <a href="https://github.com/mursal-abbas/Portfolio">
+    <img src="https://img.shields.io/badge/Portfolio-Mursal%20Abbas-blue?style=for-the-badge" alt="Portfolio Badge">
+  </a>
+  <a href="https://reactjs.org/">
+    <img src="https://img.shields.io/badge/React-Frontend-61DAFB?style=for-the-badge&logo=react" alt="React Badge">
+  </a>
+  <a href="https://mursal-abbas.github.io/Portfolio/">
+    <img src="https://img.shields.io/badge/Deployed-GitHub%20Pages-success?style=for-the-badge&logo=github" alt="GitHub Pages Badge">
+  </a>
+</p>
 
 ## 🚀 About
 
