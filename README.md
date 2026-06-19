@@ -86,6 +86,8 @@ This portfolio represents my growth as a developer and will continue to evolve a
 
 * GitHub: https://github.com/mursal-abbas
 * Portfolio: https://mursal-abbas.github.io/Portfolio/
+* Instagarm: https://www.instagram.com/mursal_abbas.jsx/
+* Facebook: https://www.facebook.com/itz.mursal.abbas
 
 ## ⭐ Support
 
