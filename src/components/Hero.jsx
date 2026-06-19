@@ -136,7 +136,7 @@ const Hero = () => {
             </svg>
           </a>
           <a
-            href="https://www.facebook.com/itz.mursal.abbas"
+            href="https://www.facebook.com/mursal_abbas.jsx"
             target="_blank"
             rel="noopener noreferrer"
             className="social-btn"
@@ -147,7 +147,7 @@ const Hero = () => {
             </svg>
           </a>
           <a
-            href="https://instagram.com/itz.mursal.abbas/"
+            href="https://instagram.com/mursal_abbas.jsx/"
             target="_blank"
             rel="noopener noreferrer"
             className="social-btn"
