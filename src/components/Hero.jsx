@@ -2,43 +2,50 @@
 import React, { useState, useEffect } from "react";
 import profileImage from "../assets/profile.jpg"; // Import your image
 
+const texts = [
+  "11th Grade Student",
+  "React Developer",
+  "Passionate Coder",
+  "Front-End Developer",
+];
+
 const Hero = () => {
   const [typewriterText, setTypewriterText] = useState("");
   const [index, setIndex] = useState(0);
   const [charIndex, setCharIndex] = useState(0);
   const [deleting, setDeleting] = useState(false);
 
-  const texts = [
-    "11th Grade Student",
-    "React Developer",
-    "Passionate Coder",
-    "Front-End Developer",
-  ];
-
   useEffect(() => {
+    const currentText = texts[index];
+
     const timeout = setTimeout(
       () => {
-        const currentText = texts[index];
+        if (!deleting) {
+          setTypewriterText(currentText.substring(0, charIndex + 1));
 
-        if (!deleting && charIndex <= currentText.length) {
-          setTypewriterText(currentText.slice(0, charIndex + 1));
-          setCharIndex(charIndex + 1);
-        } else if (!deleting && charIndex > currentText.length) {
-          setDeleting(true);
-        } else if (deleting && charIndex >= 0) {
-          setTypewriterText(currentText.slice(0, charIndex - 1));
-          setCharIndex(charIndex - 1);
-        } else if (deleting && charIndex < 0) {
-          setDeleting(false);
-          setIndex((index + 1) % texts.length);
-          setCharIndex(0);
+          if (charIndex < currentText.length) {
+            setCharIndex((prev) => prev + 1);
+          } else {
+            setTimeout(() => {
+              setDeleting(true);
+            }, 1000);
+          }
+        } else {
+          setTypewriterText(currentText.substring(0, charIndex - 1));
+
+          if (charIndex > 0) {
+            setCharIndex((prev) => prev - 1);
+          } else {
+            setDeleting(false);
+            setIndex((prev) => (prev + 1) % texts.length);
+          }
         }
       },
-      deleting ? 50 : 90,
+      deleting ? 50 : 100,
     );
 
     return () => clearTimeout(timeout);
-  }, [charIndex, deleting, index, texts]);
+  }, [charIndex, deleting, index]);
 
   useEffect(() => {
     const elements = [
